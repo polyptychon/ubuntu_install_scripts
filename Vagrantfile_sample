@@ -18,6 +18,6 @@ Vagrant::Config.run do |config|
   # config.vm.forward_port 80, 7000
   # config.vm.network :hostonly, "33.33.13.37"
   # config.vm.share_folder "hosttmp", "/hosttmp", "/tmp"  
-  config.vm.share_folder "install_scripts", "/home/vagrant/install_scripts", "install_scripts"  
+  config.vm.share_folder "install_scripts", "/home/vagrant/install_scripts", "../ubuntu_install_scripts/install_scripts"  
 
 end
