@@ -15,7 +15,7 @@ sudo apt-get install curl -y
 sudo apt-get install libyaml-dev -y
 sudo apt-get install libcurl4-gnutls-dev -y
 sudo apt-get install libsqlite3-dev -y
-sudo apt-get install apache2-dev -y
+sudo apt-get install apache2-threaded-dev -y
 
 #install libyaml (needed for pcych)
 wget http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
