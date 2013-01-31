@@ -5,7 +5,17 @@ set -x
 sudo apt-get update -y
 
 # install ruby pre-requisites
-sudo apt-get install build-essential zlib1g zlib1g-dev libssl-dev libreadline-dev git-core curl libyaml-dev libcurl4-gnutls-dev libsqlite3-dev apache2-dev -y
+sudo apt-get install build-essential -y         
+sudo apt-get install zlib1g -y
+sudo apt-get install zlib1g-dev -y
+sudo apt-get install libssl-dev -y
+sudo apt-get install libreadline-dev -y
+sudo apt-get install git-core -y
+sudo apt-get install curl -y
+sudo apt-get install libyaml-dev -y
+sudo apt-get install libcurl4-gnutls-dev -y
+sudo apt-get install libsqlite3-dev -y
+sudo apt-get install apache2-dev -y
 
 #install libyaml (needed for pcych)
 wget http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
