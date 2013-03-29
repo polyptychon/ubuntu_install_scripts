@@ -6,3 +6,4 @@ Basic install scripts for
 * Ruby 1.9.3
 * Puppet (gem)
 * Dropbox
+* Spotify for Linux preview
