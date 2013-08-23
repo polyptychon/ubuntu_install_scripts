@@ -18,7 +18,7 @@ sudo sh <<SCRIPT
 	apt-get update
 
 	# install dropbox
-	apt-get install spotify-client
+	apt-get -y install spotify-client
 
 SCRIPT
 
